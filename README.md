@@ -5,3 +5,9 @@ This geo narrative consists of three maps, showing where the water flows out of 
 [webmap](https://ychen21.github.io/Lab7GeoNarrative/)  
 [resource for image and videos](https://www.pexels.com/zh-cn/)
 
+
+
+
+![image info](img/drinkingwaterScreenshot.png)  
+![image info](img/dischargScreenshot.png)
+
