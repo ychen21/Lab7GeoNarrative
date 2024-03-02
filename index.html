@@ -25,34 +25,18 @@
     </video>
     <div id="intro">
       <h1>A GeoNarrative Template</h1>
-      <h5>This line is a place holder for subtitle</h5>
-      <p>This section shows where active research is happening, and on what topics to communicate on-going nature of
-        scientific learning. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula
-        eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-        justo,
-        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdet a, venenatis vitae, justo.
-        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-        Aenean
-        vulputate
-        eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-        dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-        Aenean imperdiet.
-        Etiam
-        ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-        tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
-        blandit
-        vel,
-        luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
-        venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla
-        mauris sit
-        amet
-        nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+      <h5>Water flow in Seattle/Washington</h5>
+      <p>
+        Since Seattle is a city surrounded by Sea and lots of rainfall, 
+        this GeoNarrative talks about how water flows within Seattle city and the water service management in Washington State.
+        The first map marks the county areas of Washington State. The second map shows the area that is serviced by WA State public water systems for drinking water.
+        The third and fourth map shows where water will flow into waterbodies in Seattle city. Readers can take a look at where 
+        drinkable water is sent to and where water leaves Seattle. 
+      </p>
 
       <div class="footnote">
-        <span> This line is a place holder for copyright note or other footnotes.</span>
-        <a target="_blank" href="https://www.uw.edu"> <img src="img/uw_logo.png" width="50px"></a>
+        <span> Yezhen Chen</span>
+        <a target="_blank" href="https://www.uw.edu"> <img src="img/otterbig.png" width="50px"></a>
       </div>
     </div>
   </section>
@@ -66,38 +50,46 @@
 
     <article class="scene" data-scene="0">
       <h2>Counties of Washington State</h2>
+      <p>Areas covered in purple are county areas within Washington State. There are 39 counties within Washington State</p>
     </article>
     <article class="scene" data-scene="1">
       <h2>Areas serviced by WA State public water systems for drinking water</h2>
+      <p>The blue shaded areas are where drinking water is sent to by WA state public water systems. We can see that the 
+        main areas serviced by the water system is near Seattle city.
+      </p>
+      <div>
+        <!-- loading bootstrap icons -->
+        <p><i class="bi bi-water"></i> <span>data source</span>
+        </p>
+      </div>
+      <p>https://geo.wa.gov/datasets/b09475f47a5a46ca90fe6a168fb22e6d_0/explore?location=47.218299%2C-120.727009%2C7.62</p>
     </article>
     <article class="scene" data-scene="2">
       <h2>Storm outfalls in Seattle</h2>
+      <p>The yellow dots are storm outfalls used to drain water when Seattle encourters a storm. We can see that
+        most of them are close to waterbodies and the northern part of Seattle tends to have more outfalls than southern part
+      </p>
+      <div>
+        <!-- loading bootstrap icons -->
+        <i class="bi bi-cloud-rain"></i> <span>data source</span>
+        </p>
+      </div>
+      <p>https://data-seattlecitygis.opendata.arcgis.com/datasets/5b9edce6791f406fa8fa391e55e07345_6/explore</p>
     </article>
     <article class="scene" data-scene="3">
       <h2>Direct discharge area of Seattle</h2>
-    </article>
-    <article class="scene" data-scene="4">
-      <h2>STEP 5: Text Script</h2>
-      <p>This section shows where active research is happening, and on what topics to communicate on-going nature of
-        scientific learning. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-        vel, aliquet nec,
-        vulputate eget, arcu. In enim justo, rhoncus ut, imperdet a, venenatis vitae, justo. Nullam dictum felis eu pede
-        mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate.
+      <p>The orange part is the direct discharge area of Seattle city. Following a similar pattern as the outfalls above,
+        it appears that northern Seattle has a larger discharge area. 
       </p>
-      <hr>
       <div>
         <!-- loading bootstrap icons -->
-        <p><i class="bi bi-person"></i> <span>2,823</span>
-        </p>
-        <p><i class="bi bi-map"></i> <span>3,520</span>
+        <i class="bi bi-tsunami"></i></i> <span>data source</span>
         </p>
       </div>
+      <p>https://data-seattlecitygis.opendata.arcgis.com/datasets/b270fa94df5b4e758e199a78e42e3061_1/explore?location=47.614674%2C-122.336800%2C11.75</p>
     </article>
     <article class="scene" data-scene="5">
-      <h2>STEP 6: Image </h2>
+      <h2>Cute Orca! </h2>
       <img src="img/orca.jpg"></img>
     </article>
     <article class="scene fullscreen" data-scene="6">

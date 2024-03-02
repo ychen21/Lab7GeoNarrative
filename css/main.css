@@ -128,9 +128,10 @@ p {
   color: white;
 }
 
-[data-scene="4"] div {
+[data-scene] div {
   font-size: xxx-large;
 }
+
 
 [data-scene="5"] img {
   display: block;
